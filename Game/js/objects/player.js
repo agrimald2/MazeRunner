@@ -1,4 +1,4 @@
-const PLAYER_SIZE = 50;
+const PLAYER_SIZE = 10;
 
 const COL_SOLID = 0;
 const COL_ENEMY = 1;
@@ -11,7 +11,7 @@ class Player
     this.spawnPositionX = x;
     this.spawnPositionY = y;
     this.size = PLAYER_SIZE;
-    this.speed = 5;
+    this.speed = 3;
     this.isAlive = true;
     this.isFinished = false;
 

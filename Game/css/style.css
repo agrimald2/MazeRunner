@@ -68,3 +68,12 @@ body {
     padding: 20px 33px;
     text-transform: uppercase;
 }
+
+#counter{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+body{
+    overflow-y: hidden;
+}
